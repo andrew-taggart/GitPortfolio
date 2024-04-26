@@ -2,7 +2,7 @@
 
 const Projects = () => {
     return (
-        <div>
+        <div className="container">
             <h2>Projects</h2>
             <ul>To Do for this Page
                 <li>List Projects</li>

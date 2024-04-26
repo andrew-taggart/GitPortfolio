@@ -29,12 +29,12 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div className="container">
             <div>
                 <ul><h2>To Do</h2>
                     <li>Email myself Contact Submissions</li>
-                    <li>move socical-links to Nav/Header??</li>
-                    <li>have links open new tab??</li>
+                    <li>Move social-links to Nav/Header??</li>
+                    <li>Have links open new tab??</li>
                 </ul>
             </div>
             <h2>Contact Page</h2>
