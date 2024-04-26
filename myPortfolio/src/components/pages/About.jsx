@@ -18,18 +18,7 @@ const About = () => {
             </ul>
             <div>
                 <h3>About Text / Professional Description</h3>
-                <p>Andrew Taggart is a software developer who approaches coding as an opportunity to challenge himself while exploring new and complex problems. </p>
-
-
-                Past: Pre-GA
-                My background has taken me through a variety of experiences where I adapted to the needs of each role.  My ability to analyze a situation or problem for finer details has helped me excel in a variety of roles including sales, supply chain, and coaching.  This skill and my interest in complex problem solving is what eventually brought me to software development.
-
-                Past: w/GA
-                Recently, I have worked through General Assemblies Software Development course, which I have worked on several full-stack applications.  One of the projects that I am most proud of was a MERN progress tracking app that I developed with a team of four.  I specifically took care of the backend development.  Creating our database from scratch and ensuring that we had a seamless connection to the front end, with tools for the end user to efficiently Create, Read, Update, and Delete as necessary.
-
-
-
-
+                <p>I am a Software Engineer who thrives on challenging myself and exploring new domains within the field. Drawing on my supply chain experience, I have honed my skills in managing intricate relationships between internal and external teams. I aspire to leverage my curiosity and determination to delve deeper into backend coding and statistics, with the ultimate goal of contributing to the realm of machine learning.  I aim to create innovative programs and applications that enhance the quality of people’s lives, embodying my values of continuous learning and problem-solving. </p>
             </div>
         </div>
     )

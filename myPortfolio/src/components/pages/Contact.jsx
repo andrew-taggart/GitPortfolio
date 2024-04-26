@@ -32,16 +32,9 @@ const Contact = () => {
         <div>
             <div>
                 <ul><h2>To Do</h2>
-                    <li>have links open new tab??</li>
+                    <li>Email myself Contact Submissions</li>
                     <li>move socical-links to Nav/Header??</li>
-                    <li>Message Submission
-                        <ul>
-                            <li>Name</li>
-                            <li>Email</li>
-                            <li>Text Box</li>
-                            <li>Submit Button</li>
-                        </ul>
-                    </li>
+                    <li>have links open new tab??</li>
                 </ul>
             </div>
             <h2>Contact Page</h2>
