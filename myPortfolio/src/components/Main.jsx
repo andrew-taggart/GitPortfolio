@@ -4,15 +4,17 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import About from './pages/About'
+import Blog from './pages/Blog'
 
 const Main = () => {
     return(
-<div>
+<div className='container'>
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/blog" element={<Blog/>} />
     </Routes>
 </div>
     )

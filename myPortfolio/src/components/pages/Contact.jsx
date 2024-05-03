@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 const Contact = () => {
-
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -24,24 +23,21 @@ const Contact = () => {
         } else {
             console.log('Form Data:', formData)
             alert('Form submitted succesfully!')
+            //Send Data to email or Data
         }
     }
 
 
     return (
-        <div className="container">
-            <div>
-                <ul><h2>To Do</h2>
-                    <li>Email myself Contact Submissions</li>
-                    <li>Move social-links to Nav/Header??</li>
-                    <li>Have links open new tab??</li>
-                </ul>
+        <div className="contact-container">
+
+            <h1>Contact Page</h1>
+
+            <div className='links-container'>
+                <a href="https://www.linkedin.com/in/andrew-h-taggart/"> LinkedIn </a>
+                <a href="https://github.com/andrew-taggart"> GitHub </a>
             </div>
-            <h2>Contact Page</h2>
-            <a href="https://www.linkedin.com/in/andrew-h-taggart/"> LinkedIn </a>
-            <a href="https://github.com/andrew-taggart"> GitHub </a>
-            <p>email: andrew.taggart53@gmail.com</p>
-            <p>Create data library and allow messaging with push to email or phone</p>
+
             <div className='ContactForm'>
                 <form onSubmit={handleSubmit}>
                     <label>
@@ -79,6 +75,16 @@ const Contact = () => {
                     <button type="submit">Submit</button>
                 </form>
             </div>
+
+            <div className='temp-Contact'>
+                <ul><h2>To Do</h2>
+                    <li>Email myself Contact Submissions</li>
+                    <li>Move social-links to Nav/Header??</li>
+                    <li>Have links open new tab??</li>
+                    <li>Create data library and allow messaging with push to email or phone</li>
+                </ul>
+            </div>
+
         </div>
     )
 }
