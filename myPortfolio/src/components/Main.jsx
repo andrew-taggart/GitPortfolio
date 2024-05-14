@@ -5,6 +5,7 @@ import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Blog from './pages/Blog'
+import Development from './pages/Development'
 
 const Main = () => {
     return(
@@ -15,6 +16,7 @@ const Main = () => {
         <Route path="/projects" element={<Projects/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/development" element={<Development/>} />
     </Routes>
 </div>
     )

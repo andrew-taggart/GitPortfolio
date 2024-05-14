@@ -1,11 +1,11 @@
 
 const projects = [
-    { id: 1, title: 'Project 1', description: 'Replace with Description and add Link', image: 'project1.jpg' },
-    { id: 2, title: 'Project 2', description: 'Replace with Description and add Link', image: 'project2.jpg' },
-    { id: 3, title: 'Project 3', description: 'Replace with Description and add Link', image: 'project3.jpg' },
-    { id: 4, title: 'Project 4', description: 'Replace with Description and add Link', image: 'project3.jpg' },
-    { id: 5, title: 'Project 5', description: 'Replace with Description and add Link', image: 'project3.jpg' },
-    { id: 6, title: 'Project 6', description: 'Replace with Description and add Link', image: 'project3.jpg' },
+    { id: 1, title: 'Project 1', description: 'Replace with Description and add Link', url: 'https://link-to-project1.com', image: 'temporary.jpg' },
+    { id: 2, title: 'Project 2', description: 'Replace with Description and add Link', url: 'https://link-to-project2.com', image: 'temporary.jpg' },
+    { id: 3, title: 'Project 3', description: 'Replace with Description and add Link', url: 'https://link-to-project3.com', image: 'temporary.jpg' },
+    { id: 4, title: 'Project 4', description: 'Replace with Description and add Link', url: 'https://link-to-project4.com', image: 'temporary.jpg' },
+    { id: 5, title: 'Project 5', description: 'Replace with Description and add Link', url: 'https://link-to-project5.com', image: 'temporary.jpg' },
+    { id: 6, title: 'Project 6', description: 'Replace with Description and add Link', url: 'https://link-to-project6.com', image: 'temporary.jpg' },
 ]
 
 const Projects = () => {
@@ -15,6 +15,7 @@ const Projects = () => {
             <div className="gallery">
                 {projects.map((project) => (
                     <div key={project.id} className="project-card">
+                        
                         <img src={`../images/${project.image}`} alt={`Add Image ${project.id}`} />
                         <div className="project-info">
                             <h3>{project.title}</h3>
