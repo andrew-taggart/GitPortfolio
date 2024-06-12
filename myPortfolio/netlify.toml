@@ -1,9 +1,14 @@
 [build]
   base = "myPortfolio"
-  publish = "myPortfolio/build"
+  publish = "myPortfolio/dist"
   command = "npm run build"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
