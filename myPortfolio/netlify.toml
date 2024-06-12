@@ -1,6 +1,6 @@
 [build]
   base = "myPortfolio"
-  publish = "myPortfolio/dist"
+  publish = "myPortfolio/base"
   command = "npm run build"
 
 [[redirects]]
