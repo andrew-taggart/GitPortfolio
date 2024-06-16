@@ -31,18 +31,15 @@ const Projects = () => {
                 <ul>
                     <h4>To Do for this Page</h4>
                     <li>Launch Demo sites??</li>
-                    <li>Description of Projects
+                    <li>Add Project Descriptions
                         <ul>
                             <li>50-100 words</li>
                             <li>service/purpose</li>
                             <li>group or solo</li>
-                            <li>GitHub link if launching all projects</li>
                         </ul>
                     </li>
                 </ul>
             </div>
-
-
         </div>
     )
 }
