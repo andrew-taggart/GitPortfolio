@@ -38,6 +38,7 @@ const About = () => {
                     <li>Soft Skills</li>
                     <li>Other Code related Skills</li>
                     <li>Organize skills by language,db,middleware,etc?</li>
+                    <li>Visually display your proficiency levels in different technologies using animated skill bars or charts.</li>
                 </ul>
             </div>
 
