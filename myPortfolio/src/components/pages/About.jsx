@@ -32,8 +32,8 @@ const About = () => {
             <div className="temporary">
                 <ul>
                     <h2>To Add</h2>
-                    <li>Accomplishments</li>
-                    <li>Best Project</li>
+                    <li>Best/Favorite Project</li>
+                    <li>Current projects?</li>
                     <li>Timeline/Career</li>
                     <li>Soft Skills</li>
                     <li>Other Code related Skills</li>

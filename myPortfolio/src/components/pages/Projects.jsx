@@ -30,12 +30,13 @@ const Projects = () => {
             <div className="temporary">
                 <ul>
                     <h4>To Do for this Page</h4>
-                    <li>Launch Demo sites??</li>
+                    <li>Launch Live Demo sites??</li>
                     <li>Add Project Descriptions
                         <ul>
                             <li>50-100 words</li>
                             <li>service/purpose</li>
                             <li>group or solo</li>
+                            <li>technologies/languages used</li>
                         </ul>
                     </li>
                 </ul>
