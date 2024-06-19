@@ -7,7 +7,6 @@ const About = () => {
                 <img src="./images/profile.jpg" alt="Profile Picture" className="profile-photo" />
                 <h1>Andrew Taggart</h1>
                 <h2>Full-Stack Developer</h2>
-                <h3>About Page</h3>
             </section>
             <section className="skills-section">
                 <h2>Skills</h2>
@@ -28,21 +27,6 @@ const About = () => {
                 <h3>About Text / Professional Description</h3>
                 <p>I am a Software Engineer who thrives on challenging myself and exploring new domains within the field. Aspiring to leverage my curiosity and determination to delve deeper into backend coding and statistics, with the ultimate goal of contributing to the realm of machine learning.  I aim to create innovative programs and applications that enhance the quality of people’s lives, embodying my values of continuous learning and problem-solving. </p>
             </div>
-
-            <div className="temporary">
-                <ul>
-                    <h2>To Add</h2>
-                    <li>Best/Favorite Project</li>
-                    <li>Current projects?</li>
-                    <li>Timeline/Career</li>
-                    <li>Soft Skills</li>
-                    <li>Other Code related Skills</li>
-                    <li>Organize skills by language,db,middleware,etc?</li>
-                    <li>Visually display your proficiency levels in different technologies using animated skill bars or charts.</li>
-                </ul>
-            </div>
-
-
         </div>
     )
 }

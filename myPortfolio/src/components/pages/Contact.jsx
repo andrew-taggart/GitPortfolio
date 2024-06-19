@@ -34,8 +34,8 @@ const Contact = () => {
             <h1>Contact Page</h1>
 
             <div className='links-container'>
-                <a href="https://www.linkedin.com/in/andrew-h-taggart/"> LinkedIn </a>
-                <a href="https://github.com/andrew-taggart"> GitHub </a>
+                <a href="https://www.linkedin.com/in/andrew-h-taggart/" target="_blank"> LinkedIn </a>
+                <a href="https://github.com/andrew-taggart" target="_blank"> GitHub </a>
             </div>
 
             <div className='ContactForm'>
@@ -75,16 +75,6 @@ const Contact = () => {
                     <button type="submit">Submit</button>
                 </form>
             </div>
-
-            <div className='temp-Contact'>
-                <ul><h2>To Do</h2>
-                    <li>Email myself Contact Submissions</li>
-                    <li>Move social-links to Nav/Header??</li>
-                    <li>Have links open new tab??</li>
-                    <li>Create data library and allow messaging with push to email or phone</li>
-                </ul>
-            </div>
-
         </div>
     )
 }
