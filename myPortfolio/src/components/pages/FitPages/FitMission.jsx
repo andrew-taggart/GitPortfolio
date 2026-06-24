@@ -1,1 +1,0 @@
-//Mission or Outlook Statement on Health and Fitness
