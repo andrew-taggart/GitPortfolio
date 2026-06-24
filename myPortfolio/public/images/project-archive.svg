@@ -1,0 +1,44 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8F8F5"/>
+
+  <!-- Browser window/card -->
+  <rect x="120" y="95" width="960" height="560" rx="28" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="4"/>
+  <rect x="120" y="95" width="960" height="74" rx="28" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="4"/>
+  <circle cx="172" cy="132" r="10" fill="#E5E5E5"/>
+  <circle cx="206" cy="132" r="10" fill="#E5E5E5"/>
+  <circle cx="240" cy="132" r="10" fill="#2F6BFF"/>
+
+  <!-- Title lines -->
+  <rect x="170" y="220" width="220" height="18" rx="9" fill="#111111"/>
+  <rect x="170" y="252" width="330" height="12" rx="6" fill="#555555" opacity="0.45"/>
+
+  <!-- Project cards grid -->
+  <rect x="170" y="315" width="250" height="145" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+  <rect x="200" y="345" width="86" height="12" rx="6" fill="#2F6BFF"/>
+  <rect x="200" y="378" width="155" height="14" rx="7" fill="#111111"/>
+  <rect x="200" y="408" width="180" height="10" rx="5" fill="#555555" opacity="0.45"/>
+
+  <rect x="475" y="315" width="250" height="145" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+  <rect x="505" y="345" width="86" height="12" rx="6" fill="#2F6BFF"/>
+  <rect x="505" y="378" width="155" height="14" rx="7" fill="#111111"/>
+  <rect x="505" y="408" width="180" height="10" rx="5" fill="#555555" opacity="0.45"/>
+
+  <rect x="780" y="315" width="250" height="145" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+  <rect x="810" y="345" width="86" height="12" rx="6" fill="#2F6BFF"/>
+  <rect x="810" y="378" width="155" height="14" rx="7" fill="#111111"/>
+  <rect x="810" y="408" width="180" height="10" rx="5" fill="#555555" opacity="0.45"/>
+
+  <rect x="170" y="500" width="250" height="82" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+  <rect x="475" y="500" width="250" height="82" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+  <rect x="780" y="500" width="250" height="82" rx="20" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="3"/>
+
+  <!-- Archive arrow -->
+  <path d="M935 228H1005" stroke="#2F6BFF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M980 203L1007 228L980 253" stroke="#2F6BFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Small archive stack icon -->
+  <rect x="805" y="210" width="88" height="54" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="8"/>
+  <path d="M822 228H876" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <rect x="790" y="246" width="88" height="54" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="8"/>
+  <path d="M807 264H861" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+</svg>

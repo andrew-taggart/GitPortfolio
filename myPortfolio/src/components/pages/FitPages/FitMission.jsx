@@ -1,1 +1,0 @@
-//Mission/Outlook Statement on Health and Fitness

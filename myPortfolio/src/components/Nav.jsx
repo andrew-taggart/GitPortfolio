@@ -1,26 +1,31 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const Nav = () => {
-    return (
-        <div className='Navbar'>
-            <div className='logo'>Andrew Taggart
-            <a href="https://www.linkedin.com/in/andrew-h-taggart/" target="_blank"> LinkedIn </a>
-            <a href="https://github.com/andrew-taggart" target="_blank"> GitHub </a>
-            </div>
+  const location = useLocation()
+  const navigate = useNavigate()
 
-            <div className="nav-links">
-                <Link to='/'> Home </Link>
-                <Link to='/projects'> Projects </Link>
-                <Link to='/about'> About </Link>
-                
-                
-            </div>
+  const handleAnchorClick = (sectionId) => {
+    if (location.pathname !== '/') {
+      navigate('/')
+      setTimeout(() => document.querySelector(sectionId)?.scrollIntoView({ behavior: 'smooth' }), 80)
+      return
+    }
+
+    document.querySelector(sectionId)?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  return (
+    <header className="site-header">
+      <nav className="nav-shell" aria-label="Main navigation">
+        <Link className="nav-logo" to="/">Andrew Taggart</Link>
+        <div className="nav-links">
+          <button type="button" onClick={() => handleAnchorClick('#home')}>Home</button>
+          <button type="button" onClick={() => handleAnchorClick('#about')}>About</button>
+          <button type="button" onClick={() => handleAnchorClick('#projects')}>Projects</button>
         </div>
-    )
+      </nav>
+    </header>
+  )
 }
-/* 
-Add back in when blog posts are available
-<Link to='/blog'> Blog </Link>
-<Link to='/contact'> Contact </Link>
- */
+
 export default Nav
