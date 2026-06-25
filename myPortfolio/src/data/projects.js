@@ -37,28 +37,6 @@ export const projects = [
     archiveOnly: true,
   },
   {
-    title: 'Federated Healthcare Explainability Research',
-    label: 'Machine Learning Research',
-    type: 'Machine Learning Research',
-    description:
-      'Federated learning experiments comparing model performance and explainability across centralized, global federated, and local client models using PyTorch, SHAP, and permutation importance.',
-    stack: 'PyTorch · Federated Learning · SHAP · Scikit-learn',
-    image: '/images/federated-research.svg',
-    url: '#',
-    featured: false,
-  },
-  {
-    title: 'Split Learning Research',
-    label: 'Accepted Research Paper',
-    type: 'Accepted Research Paper',
-    description:
-      'ICANN 2026 research contribution focused on catastrophic forgetting in split learning and orthogonal projection-based mitigation.',
-    stack: 'Split Learning · Deep Learning · Experiment Review',
-    image: '/images/split-learning.svg',
-    url: '#',
-    featured: false,
-  },
-  {
     title: 'Ticketly',
     label: 'Full-Stack Application',
     type: 'Full-Stack Application',
