@@ -10,7 +10,7 @@ export const skills = [
   },
   {
     title: 'Frameworks',
-    items: ['Spark, Vite, React, Node.js, Express.js, Django'
+    items: ['Spark', 'Vite', 'React', 'Node.js', 'Express.js', 'Django'
     ],
   },
   {
