@@ -17,9 +17,9 @@ const Hero = () => {
 
           <p className="hero-copy">
             I&apos;m a Data Science graduate focused on building practical machine
-            learning, analytics, and AI-driven applications. My work combines
-            predictive modeling, data pipelines, dashboards, and product-focused
-            problem solving.
+            learning, analytics, and AI-driven applications. My work spans NLP,
+            Spark pipelines, time-series forecasting, deep learning, and
+            interactive dashboards.
           </p>
 
           <div className="hero-actions" aria-label="Portfolio links">
@@ -52,6 +52,15 @@ const Hero = () => {
 
             <a className="button button-secondary" href="#projects">
               Projects
+            </a>
+
+            <a
+              className="button button-secondary"
+              href="https://github.com/andrew-taggart/msds-data-science-projects"
+              target="_blank"
+              rel="noreferrer"
+            >
+              M.S. Coursework
             </a>
           </div>
         </div>

@@ -1,0 +1,25 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#F8F8F5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="32" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="3"/>
+  <text x="110" y="140" font-family="Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#2F6BFF">SPARK MLLIB · 5-FOLD CROSS-VALIDATION</text>
+  <text x="110" y="200" font-family="Inter, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#111111">Test ROC AUC: income &gt; $50K</text>
+  <!-- pipeline chips -->
+  <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#555555">
+    <rect x="110" y="240" width="190" height="46" rx="23" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="2"/><text x="205" y="270" text-anchor="middle">StringIndexer</text>
+    <rect x="316" y="240" width="190" height="46" rx="23" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="2"/><text x="411" y="270" text-anchor="middle">OneHotEncoder</text>
+    <rect x="522" y="240" width="210" height="46" rx="23" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="2"/><text x="627" y="270" text-anchor="middle">VectorAssembler</text>
+    <rect x="748" y="240" width="200" height="46" rx="23" fill="#F8F8F5" stroke="#E5E5E5" stroke-width="2"/><text x="848" y="270" text-anchor="middle">CrossValidator</text>
+  </g>
+  <!-- bars: scale 0.80 -> 0.92 mapped to 0..760px -->
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="110" y="378" font-size="28" font-weight="700" fill="#111111">Logistic Regression</text>
+    <rect x="110" y="396" width="980" height="64" rx="16" fill="#F1F1EC"/>
+    <rect x="110" y="396" width="805" height="64" rx="16" fill="#9DB8FF"/>
+    <text x="935" y="440" font-size="30" font-weight="800" fill="#111111">0.899</text>
+    <text x="110" y="528" font-size="28" font-weight="700" fill="#111111">Gradient-Boosted Trees</text>
+    <rect x="110" y="546" width="980" height="64" rx="16" fill="#F1F1EC"/>
+    <rect x="110" y="546" width="870" height="64" rx="16" fill="#2F6BFF"/>
+    <text x="1000" y="590" font-size="30" font-weight="800" fill="#111111">0.907</text>
+    <text x="110" y="660" font-size="20" fill="#555555">UCI Adult · 46,443 rows after cleaning · 80/20 split · axis starts at 0.80</text>
+  </g>
+</svg>
