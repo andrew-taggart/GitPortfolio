@@ -53,15 +53,6 @@ const Hero = () => {
             <a className="button button-secondary" href="#projects">
               Projects
             </a>
-
-            <a
-              className="button button-secondary"
-              href="https://github.com/andrew-taggart/msds-data-science-projects"
-              target="_blank"
-              rel="noreferrer"
-            >
-              M.S. Coursework
-            </a>
           </div>
         </div>
       </div>
