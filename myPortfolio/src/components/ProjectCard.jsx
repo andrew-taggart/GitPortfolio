@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom'
 const ProjectCard = ({ project }) => {
   const content = (
     <article className="project-card">
-      <img src={project.image} alt={`${project.title} mockup`} />
+      <img src={project.image} alt={`${project.title} preview`} loading="lazy" />
 
       <div className="project-card-body">
         <p className="project-label">{project.label}</p>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
+        {project.highlight && (
+          <span className="project-highlight">{project.highlight}</span>
+        )}
       </div>
     </article>
   )

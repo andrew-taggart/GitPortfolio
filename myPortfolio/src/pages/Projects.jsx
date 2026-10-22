@@ -1,9 +1,42 @@
 import { Link } from 'react-router-dom'
-import { projects } from '../data/projects'
+import { projects, courseworkRepo } from '../data/projects'
+
+const sections = [
+  {
+    id: 'data',
+    kicker: 'Data Science & Machine Learning',
+    blurb:
+      'Graduate projects and research covering NLP, Spark, forecasting, deep learning, and visualization.',
+  },
+  {
+    id: 'software',
+    kicker: 'Software Engineering',
+    blurb: 'Full-stack web applications, including projects from the General Assembly Software Engineering Immersive.',
+  },
+]
+
+const ArchiveCard = ({ project }) => (
+  <a
+    className="archive-card"
+    href={project.url}
+    target={project.url === '#' ? '_self' : '_blank'}
+    rel={project.url === '#' ? undefined : 'noreferrer'}
+  >
+    <img src={project.image} alt={`${project.title} preview`} loading="lazy" />
+
+    <div>
+      <p className="project-label">{project.type}</p>
+      <h2>{project.title}</h2>
+      <p>{project.description}</p>
+      {project.highlight && (
+        <span className="project-highlight">{project.highlight}</span>
+      )}
+      <span className="archive-stack">{project.stack}</span>
+    </div>
+  </a>
+)
 
 const Projects = () => {
-  const archiveProjects = projects.filter((project) => !project.archiveOnly)
-
   return (
     <main className="page-shell">
       <section className="section-shell project-page-hero">
@@ -16,32 +49,38 @@ const Projects = () => {
         <h1>Projects, research, and applied builds.</h1>
 
         <p>
-          This page is structured for deeper project cards now and can later
-          expand into individual case studies, reports, demos, and
-          resume-specific pages.
+          Machine learning, analytics, and research work from my Master&apos;s in
+          Data Science, plus the full-stack applications I built as a software
+          engineer. All of my graduate coursework code is organized by course in
+          one{' '}
+          <a className="inline-link" href={courseworkRepo} target="_blank" rel="noreferrer">
+            GitHub repository
+          </a>
+          .
         </p>
       </section>
 
-      <section className="section-shell archive-grid" aria-label="All projects">
-        {archiveProjects.map((project) => (
-          <a
-            className="archive-card"
-            href={project.url}
-            target={project.url === '#' ? '_self' : '_blank'}
-            rel={project.url === '#' ? undefined : 'noreferrer'}
-            key={project.title}
-          >
-            <img src={project.image} alt={`${project.title} mockup`} />
+      {sections.map((section) => {
+        const items = projects.filter((project) => project.category === section.id)
+        if (!items.length) return null
 
-            <div>
-              <p className="project-label">{project.type}</p>
-              <h2>{project.title}</h2>
-              <p>{project.description}</p>
-              <span>{project.stack}</span>
+        return (
+          <section
+            className="section-shell archive-section"
+            aria-label={section.kicker}
+            key={section.id}
+          >
+            <p className="section-kicker">{section.kicker}</p>
+            <p className="archive-blurb">{section.blurb}</p>
+
+            <div className="archive-grid">
+              {items.map((project) => (
+                <ArchiveCard project={project} key={project.title} />
+              ))}
             </div>
-          </a>
-        ))}
-      </section>
+          </section>
+        )
+      })}
     </main>
   )
 }

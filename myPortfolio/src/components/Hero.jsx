@@ -17,9 +17,9 @@ const Hero = () => {
 
           <p className="hero-copy">
             I&apos;m a Data Science graduate focused on building practical machine
-            learning, analytics, and AI-driven applications. My work combines
-            predictive modeling, data pipelines, dashboards, and product-focused
-            problem solving.
+            learning, analytics, and AI-driven applications. My work spans NLP,
+            Spark pipelines, time-series forecasting, deep learning, and
+            interactive dashboards.
           </p>
 
           <div className="hero-actions" aria-label="Portfolio links">
